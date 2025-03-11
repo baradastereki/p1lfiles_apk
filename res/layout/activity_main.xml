@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:contentDescription="App Logo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Pill Name Input -->
+    <EditText
+        android:id="@+id/etPillName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pill Name"
+        android:inputType="text" />
+
+    <!-- Pill Time Input -->
+    <EditText
+        android:id="@+id/etPillTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time (e.g., 12:00 PM)"
+        android:inputType="text" />
+
+    <!-- Add Reminder Button -->
+    <Button
+        android:id="@+id/btnAddReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Reminder" />
+</LinearLayout>
